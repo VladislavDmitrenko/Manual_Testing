@@ -1,11 +1,5 @@
 CREATE TABLE `advanced_task2`.`rating_type` (
   `RatingTypeId` INT NOT NULL,
   `ReportingContextId` INT NOT NULL,
-  `EffectiveStartTimestamp` VARCHAR(50) NULL,
-  `EffectiveEndStartTimestamp` VARCHAR(50) NULL,
-  `RatingTypeCode` VARCHAR(50) NULL,
-  `RatingTypeName` VARCHAR(50) NULL,
-  `IsInferredData` VARCHAR(50) NULL,
-  `ReferenceDataSnapshotId` VARCHAR(50) NULL,
-  `ProcessExecutionId` VARCHAR(50) NULL,
+  `RatingTypeCode` VARCHAR(50) NOT NULL,
   PRIMARY KEY (`RatingTypeId`, `ReportingContextId`));
