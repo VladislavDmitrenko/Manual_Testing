@@ -1,0 +1,9 @@
+INSERT INTO `advanced_task2`.`instrument` (`InstrumentId`, `ReportingContextId`, `InstrumentCode`) VALUES ('1110', '1', '101929023');
+INSERT INTO `advanced_task2`.`instrument` (`InstrumentId`, `ReportingContextId`, `InstrumentCode`) VALUES ('1120', '2', '103530745');
+INSERT INTO `advanced_task2`.`instrument` (`InstrumentId`, `ReportingContextId`, `InstrumentCode`) VALUES ('1130', '3', '103530745');
+INSERT INTO `advanced_task2`.`instrument` (`InstrumentId`, `ReportingContextId`, `InstrumentCode`) VALUES ('1140', '4', '106662608');
+INSERT INTO `advanced_task2`.`instrument` (`InstrumentId`, `ReportingContextId`, `InstrumentCode`) VALUES ('115', '5', '106662608');
+INSERT INTO `advanced_task2`.`instrument` (`InstrumentId`, `ReportingContextId`, `InstrumentCode`) VALUES ('1160', '6', '107783527');
+INSERT INTO `advanced_task2`.`instrument` (`InstrumentId`, `ReportingContextId`, `InstrumentCode`) VALUES ('1170', '7', '111674711');
+INSERT INTO `advanced_task2`.`instrument` (`InstrumentId`, `ReportingContextId`, `InstrumentCode`) VALUES ('1180', '8', '114313533');
+INSERT INTO `advanced_task2`.`instrument` (`InstrumentId`, `ReportingContextId`, `InstrumentCode`) VALUES ('1190', '9', '114313533');
