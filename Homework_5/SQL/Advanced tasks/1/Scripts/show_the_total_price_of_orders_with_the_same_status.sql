@@ -1,0 +1,1 @@
+SELECT SUM(Price), Status FROM advanced_task1.orders GROUP BY Status;
