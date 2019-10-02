@@ -1,0 +1,6 @@
+SELECT instrument.InstrumentCode, rating.RatingValue, rating_agency.RatingAgencyName, rating_type.RatingTypeCode 
+FROM advanced_task2.instrument
+JOIN advanced_task2.instument_rating ON instrument.ReportingContextId=instument_rating.ReportingContextId
+JOIN advanced_task2.rating ON instument_rating.ReportingContextId=rating.ReportingContextId
+JOIN advanced_task2.rating_agency ON rating.ReportingContextId=rating_agency.ReportingContextId
+JOIN advanced_task2.rating_type ON rating.ReportingContextId=rating_type.ReportingContextId;
