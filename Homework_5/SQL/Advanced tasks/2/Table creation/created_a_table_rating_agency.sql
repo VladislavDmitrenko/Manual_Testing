@@ -1,12 +1,6 @@
 CREATE TABLE `advanced_task2`.`rating_agency` (
   `RatingAgencyID` INT NOT NULL,
   `ReportingContextId` INT NOT NULL,
-  `EffectiveStartTimestamp` VARCHAR(50) NULL,
-  `EffectiveEndTimestamp` VARCHAR(50) NULL,
-  `RatingAgencyCode` VARCHAR(50) NULL,
-  `RatingAgencyName` VARCHAR(50) NULL,
-  `IsInternalAgency` VARCHAR(50) NULL,
-  `IsInferredData` VARCHAR(50) NULL,
-  `ReferenceDataSnapshotId` VARCHAR(50) NULL,
-  `ProcessExecutionId` VARCHAR(50) NULL,
+  `RatingAgencyCode` INT NOT NULL,
+  `RatingAgencyName` VARCHAR(50) NOT NULL,
   PRIMARY KEY (`RatingAgencyID`, `ReportingContextId`));
